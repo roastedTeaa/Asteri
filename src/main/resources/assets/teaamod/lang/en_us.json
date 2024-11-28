@@ -1,5 +1,8 @@
 {
   "item.teaamod.shiv": "Shiv",
-  "tooltip.teaamod.shiv": "§7Press §5Shift §7for more information§r.",
-  "tooltip.teaamod.shiv.shiftdown": "§7stab people >:)."
+
+  "item.teaamod.asteri_ingot": "Asteri Ingot",
+  "tooltip.teaamod.asteri_ingot": "§7i'm hard.§r",
+
+  "block.teaamod.asteri_block": "Asteri Block"
 }

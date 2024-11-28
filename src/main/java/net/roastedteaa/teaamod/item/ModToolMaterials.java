@@ -1,4 +1,4 @@
-package net.roastedteaa.teaamod.item.custom;
+package net.roastedteaa.teaamod.item;
 
 import com.google.common.base.Suppliers;
 import net.minecraft.block.Block;
@@ -31,34 +31,23 @@ public enum ModToolMaterials implements ToolMaterial {
         this.repairIngredient = Suppliers.memoize(repairIngredient::get);
     }
 
-    @Override
-    public int getDurability() {
-        return 0;
-    }
 
     @Override
-    public float getMiningSpeedMultiplier() {
-        return 0;
-    }
+    public int getDurability() {return this.itemDurability; }
 
     @Override
-    public float getAttackDamage() {
-        return 0;
-    }
+    public float getMiningSpeedMultiplier() {return this.miningSpeed;}
 
     @Override
-    public TagKey<Block> getInverseTag() {
-        return null;
-    }
+    public float getAttackDamage() {return this.attackDamage;}
 
     @Override
-    public int getEnchantability() {
-        return 0;
-    }
+    public TagKey<Block> getInverseTag() {return this.inverseTag;}
 
     @Override
-    public Ingredient getRepairIngredient() {
-        return null;
-    }
+    public int getEnchantability() {return this.enchantability;}
+
+    @Override
+    public Ingredient getRepairIngredient() {return this.repairIngredient.get(); }
 }
 

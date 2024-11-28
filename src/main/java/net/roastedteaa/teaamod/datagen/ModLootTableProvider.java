@@ -3,7 +3,7 @@ package net.roastedteaa.teaamod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.registry.RegistryWrapper;
-
+import net.roastedteaa.teaamod.block.ModBlocks;
 import java.util.concurrent.CompletableFuture;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
@@ -13,6 +13,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-
+        addDrop(ModBlocks.ASTERI_BLOCK);
     }
 }

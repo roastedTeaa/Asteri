@@ -1,1 +1,11 @@
-// 1.21.1	2024-11-27T16:12:33.896824	Teaa Mod/Recipes
+// 1.21.1	2024-11-27T20:16:44.7825338	Teaa Mod/Recipes
+9d4bdf9db46cc3b417c25d10daf67e507e978030 data\teaamod\advancement\recipes\misc\asteri_ingot_from_blasting_iron_ingot.json
+f69a5c54e823829d78fdcc32d452a0b27be7407a data\teaamod\advancement\recipes\tools\shiv.json
+dd7e58be87c43915aee2f6f5b916b98ba12a0ad4 data\teaamod\recipe\asteri_ingot_from_smelting_iron_ingot.json
+82488e063441adce2f446638e08fcdaf68309e9f data\teaamod\advancement\recipes\misc\asteri_ingot_from_smelting_iron_ingot.json
+5f2dbbedcaae8de8d359d7e5394b1d6ef5987c5c data\teaamod\advancement\recipes\misc\asteri_block.json
+4b7e60d79da6fd0ba899840314f9bd4b3e4ea1db data\teaamod\recipe\asteri_ingot.json
+56fcfeedbe911d3350651242799da1148623f956 data\teaamod\advancement\recipes\misc\asteri_ingot.json
+2b072b5de8d9235a00091cb75b3cc9c6c611d523 data\teaamod\recipe\asteri_block.json
+2366a16856dad9de98d618907745ad8d14af63b6 data\teaamod\recipe\shiv.json
+111a6d87e775752ae2444acb0cb3daeb5766c6e2 data\teaamod\recipe\asteri_ingot_from_blasting_iron_ingot.json
